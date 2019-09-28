@@ -74,7 +74,12 @@ void createPoint(){
 //Function called to end the game.
 
 void gameOver(){
-  exit();
+  //exit();
+  speedMod=0;
+  fill(color(255,0,0));
+  textSize(height/10);
+  textAlign(CENTER,CENTER);
+  text("GAME OVER!!",width/2,height/2);
 }
 
 //Function which checks whether the snake has hit the boundary walls or has bitten itself (out of fun).
@@ -121,6 +126,7 @@ void drawPoint(){
 //Funciton to display the number of game points our snake has eaten during the current playthrough.
 
 void dispPoints(){
+  fill(color(0,255,0));
   textAlign(CENTER,CENTER);
   textSize(height/20);
   text((gamePoints),width/2,height*0.9);
