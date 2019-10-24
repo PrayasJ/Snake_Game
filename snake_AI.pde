@@ -13,7 +13,7 @@
 */
 //This is a basic Snake game which I made for reasons unkown.
 //Please do make the snake bite its own tail, it ain't aesthetic in nature.
-
+//This is a comment
 
 /*
 
